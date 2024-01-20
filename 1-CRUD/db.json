@@ -1,0 +1,158 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Последнее королевство",
+      "author": "Орелли",
+      "genre": [
+        "приключения"
+      ],
+      "rating": 10
+    },
+    {
+      "id": "2",
+      "title": "Angular",
+      "author": "Роберт  Шеклин",
+      "genre": [
+        "фантастика"
+      ],
+      "rating": 8.32
+    },
+    {
+      "id": "3",
+      "title": "Пожиратель призраков",
+      "author": "Говард Давкрафт",
+      "genre": [
+        "ужасы",
+        "мистика"
+      ],
+      "rating": 8.51
+    },
+    {
+      "id": "4",
+      "title": "Разоблаченный проходимец",
+      "author": "Франц Кафка",
+      "genre": [
+        "классика"
+      ],
+      "rating": 1000
+    },
+    {
+      "id": "1bea",
+      "title": "JQuery",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "5e87",
+      "title": "JQuery",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "f893",
+      "title": "Svetle",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "affa",
+      "title": "Svetle",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "40f5",
+      "title": "Svetle",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "2605",
+      "title": "Svetle",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "7a5f",
+      "title": "Svetle",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "49da",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "38e8",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "4d7e"
+    },
+    {
+      "id": "d1b3",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "7430",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
