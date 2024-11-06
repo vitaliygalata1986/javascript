@@ -1,4 +1,4 @@
-import './js/get';
-// import './js/post';
-// import './js/patch';
-// import './js/delete';
+import './js/get.js';
+// import './js/post.js';
+// import './js/patch.js';
+// import './js/delete.js';

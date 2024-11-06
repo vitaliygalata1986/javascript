@@ -2,7 +2,7 @@
   "books": [
     {
       "id": "1",
-      "title": "Последнее королевство",
+      "title": "React JS 2024",
       "author": "Орелли",
       "genre": [
         "приключения"
@@ -10,98 +10,16 @@
       "rating": 10
     },
     {
-      "id": "2",
+      "id": "68f3",
       "title": "Angular",
-      "author": "Роберт  Шеклин",
-      "genre": [
-        "фантастика"
-      ],
-      "rating": 8.32
-    },
-    {
-      "id": "3",
-      "title": "Пожиратель призраков",
-      "author": "Говард Давкрафт",
-      "genre": [
-        "ужасы",
-        "мистика"
-      ],
-      "rating": 8.51
-    },
-    {
-      "id": "4",
-      "title": "Разоблаченный проходимец",
-      "author": "Франц Кафка",
-      "genre": [
-        "классика"
-      ],
-      "rating": 1000
-    },
-    {
-      "id": "1bea",
-      "title": "JQuery",
       "author": "Я",
       "genre": [
-        "JQuery"
+        "JS"
       ],
-      "rating": 67
+      "rating": 10
     },
     {
-      "id": "5e87",
-      "title": "JQuery",
-      "author": "Я",
-      "genre": [
-        "JQuery"
-      ],
-      "rating": 67
-    },
-    {
-      "id": "f893",
-      "title": "Svetle",
-      "author": "Я",
-      "genre": [
-        "JQuery"
-      ],
-      "rating": 67
-    },
-    {
-      "id": "affa",
-      "title": "Svetle",
-      "author": "Я",
-      "genre": [
-        "JQuery"
-      ],
-      "rating": 67
-    },
-    {
-      "id": "40f5",
-      "title": "Svetle",
-      "author": "Я",
-      "genre": [
-        "JQuery"
-      ],
-      "rating": 67
-    },
-    {
-      "id": "2605",
-      "title": "Svetle",
-      "author": "Я",
-      "genre": [
-        "JQuery"
-      ],
-      "rating": 67
-    },
-    {
-      "id": "7a5f",
-      "title": "Svetle",
-      "author": "Я",
-      "genre": [
-        "JQuery"
-      ],
-      "rating": 67
-    },
-    {
-      "id": "49da",
+      "id": "62c8",
       "title": "VUE",
       "author": "Я",
       "genre": [
@@ -110,7 +28,7 @@
       "rating": 67
     },
     {
-      "id": "38e8",
+      "id": "d6ff",
       "title": "VUE",
       "author": "Я",
       "genre": [
@@ -119,10 +37,7 @@
       "rating": 67
     },
     {
-      "id": "4d7e"
-    },
-    {
-      "id": "d1b3",
+      "id": "7529",
       "title": "VUE",
       "author": "Я",
       "genre": [
@@ -131,7 +46,187 @@
       "rating": 67
     },
     {
-      "id": "7430",
+      "id": "b60f",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "58ca",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "8f09",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "0e9c",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "1879",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "aa26",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "1010",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "8c5f",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "3dd1",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "bdab",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "9787",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "883f",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "dd3f",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "8732",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "adc0",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "VUE"
+      ],
+      "rating": 100
+    },
+    {
+      "id": "5a0c",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "4bde",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "a6fd",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "cf15",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "9153",
+      "title": "VUE",
+      "author": "Я",
+      "genre": [
+        "JQuery"
+      ],
+      "rating": 67
+    },
+    {
+      "id": "8dab",
       "title": "VUE",
       "author": "Я",
       "genre": [
@@ -139,20 +234,5 @@
       ],
       "rating": 67
     }
-  ],
-  "comments": [
-    {
-      "id": "1",
-      "text": "a comment about post 1",
-      "postId": "1"
-    },
-    {
-      "id": "2",
-      "text": "another comment about post 1",
-      "postId": "1"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

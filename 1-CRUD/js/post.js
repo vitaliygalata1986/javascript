@@ -13,6 +13,7 @@ const newBook2 = {
   genre: ['JQuery'],
   rating: 67,
 };
+
 function addBooks(createNewBook) {
   return fetch(`${BASE_URL}/books`, {
     method: 'POST',
@@ -24,49 +25,47 @@ function addBooks(createNewBook) {
   }).then((response) => response.json());
 }
 
-// addBooks(newBook).then((book) => console.log(book));
-
-/*
 addBooks(newBook2)
   .then(renderBook)
   .catch((err) => console.log(err));
-*/
 
 function renderBook(book) {
-  console.log('Отрисуй книгу');
-  console.log(book);
+  console.log('Добавленная книга', book);
 }
 
 // используя async/await
 
 async function addBooksAll(createNewBook) {
-  const response = await fetch(`${BASE_URL}/books`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(createNewBook),
-  });
+  try {
+    const response = await fetch(`${BASE_URL}/books`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(createNewBook),
+    });
 
-  if (response.ok) {
+    if (!response.ok) {
+      console.error('Ошибка ответа:', response); // Логируем весь ответ
+      throw new Error(
+        `ошибка по адресу ${response.url}, статус ответа ${response.status}, статус ошибки ${response.statusText}}`
+      );
+    }
+
     return await response.json();
+  } catch (error) {
+    console.error(`Ошибка добавления книги: ${error.message}`);
+    throw error; // Пробрасываем ошибку, чтобы обработать ее в addBookAndUpdateUI
   }
-  throw new Error(
-    `Ошибка по адресу ${response.url}, статус ошибки ${response.status}`
-  );
 }
 
 async function addBookAndUpdateUI() {
   try {
     const book = await addBooksAll(newBook2);
-    console.log(book);
+    console.log('Добавленная книга:', book);
   } catch (error) {
-    console.log(error);
+    console.error('Ошибка при обновлении UI:', error.message);
   }
 }
 
 addBookAndUpdateUI();
-
-addBooksAll(newBook2)
-  .then((book) => console.log(book))
-  .catch((err) => console.log(err));
